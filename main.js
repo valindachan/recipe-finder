@@ -33,6 +33,7 @@ function search() {
       let thumbnailContainer = document.createElement("img")
       let ingredientsContainer = document.createElement("p")
 
+      // Set images for missing thumbnails
       if (thumbnail.length === 0) {
         thumbnail = "img/default.jpg"
       }
@@ -49,9 +50,12 @@ function search() {
       resultContainer.appendChild(aTag)
     }
   })
+
+  // Reset link for next search
   url = "https://crossorigin.me/http://www.recipepuppy.com/api/?q="
 }
 
+// If 'Enter' key is hit, start searching input typed in
 function checkSubmit(e) {
   if (e && e.keyCode == 13) {
     search()
