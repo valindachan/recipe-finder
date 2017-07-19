@@ -1,0 +1,88 @@
+/*@media (min-width: 500px) {
+  body {
+    background-color: white;
+  }
+}*/
+
+body {
+  font-family: 'Patua One', cursive;
+  color: #53565a;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 50px;
+  background-color: #c5eff7;
+}
+
+.icon {
+  color: #e64e39;
+  margin-right: 20px;
+}
+
+.search-boxes {
+  display: flex;
+  align-items: flex-start;
+}
+
+input[type=text] {
+  font-size: .8em;
+  width: 310px;
+  height: 40px;
+  padding-left: 20px;
+  margin-right: 0px;
+  border: 1px solid #fff;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+button {
+  font-size: 1.4em;
+  padding: 0;
+  height: 45px;
+  width: 50px;
+  background-color: #e64e39;
+  border: 1px solid #e64e39;
+  color: white;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  margin-right: 0px;
+}
+
+#search-input {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e8f7f9;
+}
+
+.search-result {
+  margin: 20px 100px 20px 5px;
+}
+
+.result {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+  padding: 10px;
+}
+
+.result img {
+  min-width: 107px;
+}
+
+a {
+  margin: 10px;
+  color: #e64e39;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #297cbc;
+}
+
+h5,
+span.ingredients {
+  font-family: 'Lato', sans-serif;
+  color: #53565a;
+  font-size: .8em;
+}
