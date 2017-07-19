@@ -47,7 +47,6 @@ button:hover {
   transition: background .3s ease-in-out;
 }
 
-/* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
   margin-right: 0px;
 }
@@ -70,6 +69,7 @@ input[type=text]:focus {
 
 .result img {
   min-width: 107px;
+  max-height: 82px;
 }
 
 a {
