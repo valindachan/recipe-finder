@@ -25,6 +25,7 @@ function search() {
       let ingredients = data.results[i].ingredients
 
       let aTag = document.createElement("a")
+      aTag.setAttribute("target", "_blank")
       aTag.setAttribute("href", link)
 
       let resultContainer = document.createElement("div")
